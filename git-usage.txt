@@ -1,0 +1,39 @@
+HOW TO USE GIT
+
+1: use 'git add --all' to add all files to the repository
+2: use 'git commit -m "some_message" to commit changes to repository
+3: use 'git push' to push to github
+
+
+
+SETUP YOURSELF
+
+1: install git from https://git-scm.com/
+2: check if its installed, use 'git --version'
+3: use 'git config --global user.name "<your_username>"' (git config --global user.name "Porygon61")
+4: use 'git config --global user.email "<your_email>"' (git config --global user.email "Porygon6@web.de")
+
+
+
+HOW TO SETUP GIT with already existing repository
+
+1:use 'git clone https://github.com/<your_username>/your_repository.git' (git clone https://github.com/Porygon61/Anon.git)
+2: HOW TO USE GIT
+
+
+
+HOW TO SETUP GIT locally (not recommended)
+
+0:go to folder of choice (cd) or create a new folder (mkdir)
+1: use 'git init'
+2: HOW TO USE GIT
+3:use 'git remote add origin https://github.com/<your_username>/your_repository.git' (git remote add origin https://github.com/Porygon61/Anon.git)
+
+
+
+
+to add a .bat file to the task bar just add 'cmd.exe /C' before the file path to the .bat file
+
+typical .bat script to execute python script and then close the command prompt window
+    python -u "e:\Privat\All Code\Programs\open_yt.py"
+    exit
